@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     public float speed; // скорость передвижения
     public float jumpForce; // сила прыжка
     public Rigidbody2D rb;
-
+    //public Transform k;
+    
     private void Update()
     {
         //transform.Translate(transform.right * speed * Time.deltaTime);
